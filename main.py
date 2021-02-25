@@ -1,16 +1,83 @@
-# This is a sample Python script.
+'''
+#zad1
+a='napis'
+b=4
+c=4.6
+print(a,b,c)
+'''
+'''
+#zad2
+a, b, c = 5, 10, 3
+dodawanie = a+c
+odejmowanie = b-c
+mnozenie = b*a
+dzielenie = c/b
+potegowanie = b**a
+reszta = c%a
+print(dodawanie)
+print(odejmowanie)
+print(mnozenie)
+print(dzielenie)
+print(reszta)
+'''
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+'''
+#zad3
+a, b, c = 5, 10, 3
+a+=2
+print(a)
+b-=6
+print(b)
+c*=3
+print(c)
+a/=7
+print(a)
+b**=2
+print(b)
+c%=4
+print(c)
+'''
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+'''
+'''
+#zad4
+from math import *
+
+e**=10
+print(e)
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+'''
+from math import *
+
+a = 10
+b = 5
+c = 2
+
+dzielenie = a/c
+
+dzielenie_calkowite = b//c
+reszta = b%c
+
+potega = a**c
+
+print(dzielenie)
+print(dzielenie_calkowite)
+print(reszta)
+print(potega)
+
+a += 2
+print(sqrt(25))
+print(pi)
+
+
+
+napis = "informatyka ogolna"
+
+a = 2
+
+print('specjalizacja %s grupa nr &d' % {'napis','a'})
+'''
